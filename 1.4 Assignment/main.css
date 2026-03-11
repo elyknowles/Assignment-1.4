@@ -1,0 +1,52 @@
+/* Ely Knowles, 11MAR2026, CSC102 - Assignment 1.3 */
+/* CSS files make html files look good with declaration blocks*/
+/* Declaration block:
+    Selector/Tag{ property: value; property2: value;} */
+/* body declaration defines the style of eveything in the body of the html as identified */
+body{
+    /* background-color defines the overall background color of the body */
+    background-color: rgb(0, 0, 109);
+    /* color defines the color of the text within the body */
+    color: whitesmoke;
+}
+/* nav declaration defines the style of a button or menu used for navigating between pages */
+nav{
+    /* height defines height of navigation entity */
+    height: 600px;
+    /* width defines width of navigation entity */
+    width: 200px;
+    /* float dictates that the navigation entity floats on specified side of page */
+    float: left;
+    /* padding creates specified space around the text contained in the navigation entity */
+    padding: 5px;
+    /* line-height sets the size of the font and creates space */
+    line-height: 30px;
+    /* color defines the initial menu item text color */
+    color: whitesmoke;
+}
+/* footer declaration defines sytle of footer */
+footer{
+    /* test-align defines position of footer text */
+    text-align: center;
+    /* margin-right defines spacing on right side of footer */
+    margin-right: auto;
+}
+/* #(TAG) defines in this case an image indentifier in the html file */
+#Raelynn{
+    /* display block allows auto margins to function for horizontal placement */
+    display: block;
+    /* margin-left auto automatically places image in center of page */
+    margin-left: auto;
+    /* margin-right auto automatically places image in center of page */
+    margin-right: auto;
+    /* height defines the height of image in pixels */
+    height: 546px;
+    /* width defines width of image in pixels */
+    width: 600px;
+}
+/* h1 identifies the header in the html file */
+h1{
+    /* text-align is used to define the location of the header text */
+    text-align: center;
+}
+
